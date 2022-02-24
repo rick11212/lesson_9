@@ -1,0 +1,235 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap);
+@import "nullstyle.css";
+
+.header {
+	margin: 0px 0px 65px 0px;
+}
+.header__container {
+	max-width: 810px;
+	margin: 0px auto;
+	font-family: "Lato";
+	font-size: 0px;
+	padding: 35px 0px 0px 0px;
+}
+.header__logo {
+	display: inline-block;
+	margin: 0px 60px 0px 0px;
+}
+.header__logo img {
+	display: block;
+}
+.header__menu {
+	display: inline-block;
+}
+.header__list {
+	font-size: 0;
+}
+.header__list li {
+	margin: 0px 40px 0px 0px;
+	display: inline-block;
+	color: #424551;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 1.6;
+}
+.header__list li:nth-child(4) {
+	color: #ff3f3a;
+}
+.header__list li:last-child {
+	margin: 0px 0px 0px 0px;
+}
+.content__container {
+	max-width: 810px;
+	margin: 0px auto;
+	font-family: "Lato";
+	font-size: 0px;
+	line-height: 1.6;
+	color: #424551;
+}
+.content {
+	margin: 0px 0px 40px 0px;
+}
+.content__title {
+	margin: 0px 0px 40px 0px;
+}
+.header-title {
+	margin: 0px 0px 9px 0px;
+}
+.header-title__article {
+	display: inline-block;
+	font-size: 16px;
+}
+.header-title__article::before {
+	content: "";
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url("../img/icon/file.svg") 0 0 no-repeat;
+	margin: 0px 8px -2px 0px;
+}
+.header-title__article::after {
+	content: "";
+	display: inline-block;
+	width: 1px;
+	height: 16px;
+	background: url("../img/icon/divider.svg") 0 0 no-repeat;
+	margin: 0px 12px -2px 12px;
+}
+
+.header-title__hr {
+	display: inline-block;
+	font-weight: 700;
+	color: #ff3f3a;
+	font-size: 16px;
+}
+
+.body-title h1 {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 1.3;
+	color: #1e212c;
+}
+.body-title {
+	margin: 0px 0px 26px 0px;
+}
+.footer-title {
+	font-size: 16px;
+	line-height: 1.6;
+	color: #787a80;
+}
+.footer-title__date {
+	display: inline-block;
+	margin: 0px 24px 0px 0px;
+}
+.footer-title__date::before {
+	content: "";
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url("../img/icon/Stroke.svg") 0 0 no-repeat;
+	margin: 0px 8px -2px 0px;
+}
+.footer-title__time {
+	display: inline-block;
+}
+.footer-title__time::before {
+	display: inline-block;
+	content: "";
+	width: 16px;
+	height: 16px;
+	background: url("../img/icon/clock.svg") 0 0 no-repeat;
+	margin: 0px 8px -2px 0px;
+}
+.footer-title__share {
+	display: block;
+	width: 142px;
+	margin: -26px 0px 0px auto;
+}
+.share {
+	color: #1e212c;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 1.6;
+}
+.share__title {
+	display: inline-block;
+	margin: 0px 12px 0px 0px;
+}
+.share__logo {
+	display: inline-block;
+	margin: 0px 12px 0px 0px;
+}
+.footer-title__share div:last-child {
+	margin: 0px 0px 0px 0px;
+}
+.content__image {
+	display: inline-block;
+	margin: 0px 0px 60px 0px;
+}
+
+.text-content {
+	font-size: 16px;
+	line-height: 1.6;
+	color: #424551;
+}
+.text-content__bold {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 1.5;
+	color: #1e212c;
+}
+.text-content__bold_m24 {
+	margin: 0px 0px 24px 0px;
+}
+.text-content__bold_quote {
+	background: url("../img/icon/braces.svg") 0px 0px no-repeat;
+	padding: 0px 0px 0px 58px;
+	margin: 0px 0px 48px 0px;
+}
+.text-content_m24 {
+	margin: 0px 0px 24px 0px;
+}
+.text-content_m48 {
+	margin: 0px 0px 48px 0px;
+}
+.text-content__list {
+	padding: 0px 0px 0px 32px;
+}
+.text-content__list li {
+	margin: 0px 0px 4px 0px;
+}
+.text-content__list li:last-child {
+	margin: 0px 0px 0px 0px;
+}
+.text-content__list li::before {
+	content: "";
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url("../img/icon/check.svg") 0 0 no-repeat;
+	margin: 0px 16px -2px -32px;
+}
+
+.footer__container {
+	max-width: 810px;
+	margin: 0px auto;
+	font-size: 0;
+	font-family: "Lato";
+	padding: 0px 0px 35px 0px;
+}
+.footer__tags {
+	display: inline-block;
+}
+.tags {
+}
+.tags__title {
+	display: inline-block;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 1.6;
+	color: #1e212c;
+	margin: 0px 12px 0px 0px;
+}
+.tags__tag {
+	display: inline-block;
+	border: 1px solid #d7dadd;
+	border-radius: 4px;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #787a80;
+	margin: 0px 12px 0px 0px;
+	align-items: center;
+	padding: 5.5px 16px;
+}
+.footer__tags a:last-child {
+	margin: 0px 0px 0px 0px;
+}
+.footer__share {
+	display: block;
+	width: 142px;
+	margin: -32px 0px 0px auto;
+}
+.footer__share div:last-child {
+	margin: 0px 0px 0px 0px;
+}
