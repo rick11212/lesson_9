@@ -37,6 +37,14 @@
 }
 .header__list li:last-child {
 	margin: 0px 0px 0px 0px;
+	border: 1px solid #000;
+}
+.header__list li:last-child:hover {
+	box-shadow: 5px 5px 5px #1e212c;
+}
+.header__list li:last-child:active {
+	margin: 0px 0px 0px 0px;
+	box-shadow: 3px 3px 3px #1e212c;
 }
 .content__container {
 	max-width: 810px;
@@ -232,4 +240,127 @@
 }
 .footer__share div:last-child {
 	margin: 0px 0px 0px 0px;
+}
+
+.wrapper-2 {
+	background: linear-gradient(353deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+	min-height: 100%;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.game__container {
+	width: 1200px;
+	margin: 0px auto;
+	padding: 40px 0px 0px 0px;
+	font-size: 0;
+}
+.game__play {
+}
+.game__start {
+	display: block;
+	width: 100px;
+	height: 40px;
+	font-size: 30px;
+	margin: 0px 0px 0px -30px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 5px 0px 0px 0px;
+}
+.game__dot {
+	background-color: #fff;
+	visibility: hidden;
+	display: inline-block;
+}
+.game__dot-1 {
+	width: 40px;
+	height: 100px;
+	margin: 0px 0px 0px 0px;
+}
+.game__start:hover + .game__dot-1,
+.game__dot-1:hover {
+	visibility: visible;
+}
+.game__dot-2 {
+	width: 800px;
+	height: 40px;
+}
+.game__dot-1:hover + .game__dot-2,
+.game__dot-2:hover {
+	visibility: visible;
+}
+.game__dot-3 {
+	width: 35px;
+	height: 300px;
+	margin: 0px 0px 0px 805px;
+}
+.game__dot-2:hover + .game__dot-3,
+.game__dot-3:hover {
+	visibility: visible;
+}
+.game__dot-4 {
+	width: 150px;
+	height: 30px;
+}
+.game__dot-3:hover + .game__dot-4,
+.game__dot-4:hover {
+	visibility: visible;
+}
+.game__dot-5 {
+	width: 30px;
+	height: 150px;
+}
+.game__dot-4:hover + .game__dot-5,
+.game__dot-5:hover {
+	visibility: visible;
+}
+.game__dot-6 {
+	width: 100px;
+	height: 30px;
+	margin: 0px 0px 120px 0px;
+}
+.game__dot-5:hover + .game__dot-6,
+.game__dot-6:hover {
+	visibility: visible;
+}
+.game__dot-7 {
+	width: 25px;
+	height: 150px;
+	margin: 0px 0px 120px 0px;
+}
+.game__dot-6:hover + .game__dot-7,
+.game__dot-7:hover {
+	visibility: visible;
+}
+.game__dot-8 {
+	width: 150px;
+	height: 25px;
+	margin: 0px 0px 270px -150px;
+}
+.game__dot-7:hover + .game__dot-8,
+.game__dot-8:hover {
+	visibility: visible;
+}
+.game__dot-9 {
+	width: 25px;
+	height: 100px;
+	margin: 0px 0px 190px -150px;
+}
+.game__dot-8:hover + .game__dot-9,
+.game__dot-9:hover {
+	visibility: visible;
+}
+.game__link {
+	display: block;
+	font-size: 15px;
+	width: 100px;
+	height: 50px;
+	margin: -240px 0px 0px 1020px;
+	padding: 17px 0px 0px 0px;
+	text-align: center;
+	color: #000;
+	text-transform: uppercase;
+}
+.game__dot-9:hover + .game__link,
+.game__link:hover {
+	visibility: visible;
 }
